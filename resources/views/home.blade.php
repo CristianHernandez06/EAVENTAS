@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.theme.app')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">{{ __('Bienvenido al Sistema de Control de Ventas TecnoAka') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Usted ha iniciado sesion Correctamente!') }}
                 </div>
             </div>
         </div>
